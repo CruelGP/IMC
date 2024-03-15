@@ -80,7 +80,7 @@ form input::placeholder
 .input-wrapper + .input-wrapper
 {margin-top: 1.6rem;}
 
-button
+form button
 {margin-top: 3.2rem;
 padding:1.6rem;
 width: 100%;
@@ -102,5 +102,37 @@ cursor: pointer;
 transition: background 0.3s;
 }
 
-button:hover
+form button:hover
 {background: var(--bg-button-hover);}
+
+/*modal*/
+
+.modal-whapper.open
+{opacity: 1;
+visibility: visible;}
+
+.modal-whapper
+{position: absolute;
+inset: 0;
+background: rgba(0, 0, 0, 0.7);
+display: grid;
+place-content: center;
+
+opacity: 0;
+visibility: hidden;}
+
+.modal
+{position: relative;}
+
+.modal button
+{background-color: none;
+border: none;
+
+position: absolute;
+top: 1.6rem;
+right:1.6rem;
+cursor: pointer;
+transition:transform 0.3s}
+
+.modal button:hover
+{transform: scale(1.1);}
