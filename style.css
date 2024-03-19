@@ -107,11 +107,11 @@ form button:hover
 
 /*modal*/
 
-.modal-whapper.open
+.modal-wrapper.open
 {opacity: 1;
 visibility: visible;}
 
-.modal-whapper
+.modal-wrapper
 {position: absolute;
 inset: 0;
 background: rgba(0, 0, 0, 0.7);
